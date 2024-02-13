@@ -1,0 +1,18 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(86, 18, 18);
+}
+
+#container {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Mobile Styles */
+
