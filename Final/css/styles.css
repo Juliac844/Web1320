@@ -6,13 +6,163 @@ img {
 }
 
 body {
-    background-color: rgb(86, 18, 18);
+    background-color: #4A2B8C;
 }
 
 #container {
-    background-color: white;
+    background-color: #e6bdff;
     padding: 10px;
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: #3310C6;
+}
+
+
+a:hover {
+    color: #F23670;
+    text-decoration: none;
+}
 /* Mobile Styles */
+nav {
+    background-color: #4F8EF1;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        color: #4A2B8C;
+        background-color: #fad27d;
+        text-align: center;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+
+    nav li a:hover {
+        background-color: white;
+    }
+
+    header h1 {
+        font-size: 50px;
+        color: #F23670;
+    }
+
+    main {
+        border: 2px solid #4F8EF1;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    #lower {
+        border: 2px solid #4F8EF1;
+        padding: 10px;
+    }
+
+    .col {
+        border: 2px solid white;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .button {
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+        color: #4A2B8C;
+        background-color: #fad27d;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        border: 2px solid #F86BED;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .button:hover {
+        background-color: white;
+    }
+
+    /* Tablet Styles */
+
+    @media (min-width: 786px) {
+       nav {
+        text-align: center;
+       }
+    
+        nav li {
+            display: inline-block;
+        }
+
+        nav li a {
+            width: 200px;
+        }
+
+        main img {
+            width: 80%;
+        }
+
+        #lower {
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .col img {
+            width: 75%;
+        }
+    }
+
+    /* Desktop Styles */
+
+    @media (min-width: 1024px) {
+        
+        #container {
+            width: 75%;
+            margin: 20px auto;
+        }
+        
+        #lower {
+            width: 100%;
+            display: flex;
+        }
+
+        .col {
+            width: 33.33%;
+        }
+
+        .lower_info {
+            display: flex;
+        }
+
+        .col img {
+        
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
 
