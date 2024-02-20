@@ -7,15 +7,34 @@ img {
 
 body {
     background-color: #4A2B8C;
+    font-family: "Nunito", sans-serif;
 }
 
 #container {
-    background-color: #e6bdff;
+    background-color: #e5c0fc;
     padding: 10px;
 }
 
 h1, h2, h3 {
     text-align: center;
+    color: #F23670;
+    font-family: "Salsa", cursive;
+}
+
+h2 {
+    text-align: center;
+    color: #F23670;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: #F23670;
+    font-size: 30px;
+}
+
+hr {
+    border: 3.5px solid white;
 }
 
 a {
@@ -62,23 +81,23 @@ nav ul {
     }
 
     header h1 {
-        font-size: 50px;
-        color: #F23670;
+        font-size: 75px;
+        color: #f13570;
     }
 
     main {
-        border: 2px solid #4F8EF1;
+        border: 3.5px solid #4F8EF1;
         padding: 10px;
         margin: 10px 0;
     }
 
     #lower {
-        border: 2px solid #4F8EF1;
+        border: 2.5px solid #4F8EF1;
         padding: 10px;
     }
 
     .col {
-        border: 2px solid white;
+        border: 3.5px solid #4F8EF1;
         margin: 10px;
         padding: 10px;
     }
@@ -146,7 +165,7 @@ nav ul {
         }
         
         #lower {
-            width: 100%;
+            width: 97%;
             display: flex;
         }
 
